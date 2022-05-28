@@ -9,10 +9,10 @@ class BaseManager
     // Méthode
     public function __construct()
     {
-        $host = "localhost";
-        $dbName = "linksapp";
-        $dbUsername = "root";
-        $dbPassword = "root";
+        $host = "";
+        $dbName = "";
+        $dbUsername = "";
+        $dbPassword = "";
 
         try {
             $this->setPdo(new PDO("mysql:host=$host;dbname=$dbName", $dbUsername, $dbPassword));
