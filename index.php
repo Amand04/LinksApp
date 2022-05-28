@@ -8,7 +8,7 @@ require "./header.php"; ?>
 
     foreach ($titles as $title) : ?>
         <div class="row ">
-            <div class="card mt-2" style="width: 20rem;">
+            <div class="card m-2" style="width: 20rem;">
                 <div class="card-body mt-2  ">
                     <h5 class="card-title"><?= $title->getTheme() ?></h5>
                     <h6 class="card-subtitle mb-2 text-muted"></h6>
